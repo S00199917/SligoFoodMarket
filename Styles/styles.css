@@ -1,0 +1,97 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+}
+
+header {
+    background-image: url(../Week6Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li:hover {
+    background-color: mediumaquamarine;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside {
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+    display: block;
+    margin-bottom: 100px;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    width: 100%;
+}
+
+footer {
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+#bigPic {
+    float: right;
+}
